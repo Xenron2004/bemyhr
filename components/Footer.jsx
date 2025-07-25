@@ -284,9 +284,8 @@ const Footer = () => {
                     <FaLocationDot width={16} height={16} />
                   </div>
                   <div className="font-montserrat font-normal text-[#666D80] hover:text-headingText text-[16px]">
-                    1st floor, Sri Venkateswara Towers, Door No. 47, 3-31, opp.
-                    Subbayya Gari Hotel, Dwaraka Nagar, Visakhapatnam, Andhra
-                    Pradesh 530016
+                    Office number 104, 1st Floor, Hari Om Plaza building Above
+                    Indian Bank RHB Road, Mulund West, Mumbai 400080
                   </div>
                 </div>
               </li>{" "}

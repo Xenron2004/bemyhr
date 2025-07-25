@@ -57,7 +57,7 @@ export default function Jobs() {
     },
     {
       id: 3,
-      title: "Cruise Line Hospitality Jobs",
+      title: "Jobs in Cruise Lines",
       company: "Huntington Ingalls Industries",
       location: "Worldwide",
       salary: "$55,000 - $70,000",
@@ -68,6 +68,20 @@ export default function Jobs() {
       posted: "3 days ago",
       applicants: 31,
       link: "https://forms.gle/CCHcZNcaRLeiEcHd7",
+    },
+    {
+      id: 4,
+      title: "Jobs in New Zealand",
+      company: "",
+      location: "New Zealand",
+      salary: "$55,000 - $70,000",
+      type: "industrial",
+      experience: "mid",
+      skills: ["Communication", "Team Management", "Multitasking"],
+      urgent: false,
+      posted: "1 day ago",
+      applicants: 41,
+      // link: "https://forms.gle/CCHcZNcaRLeiEcHd7",
     },
     // {
     //   id: 4,
@@ -160,7 +174,7 @@ export default function Jobs() {
         {filteredJobs.map((job) => (
           <div
             key={job.id}
-            className="bg-white rounded-lg shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden group"
+            className="bg-white rounded-lg shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden group"
           >
             {/* Job Card Header */}
             <div className="p-6">
