@@ -212,7 +212,8 @@
 
 import React from "react";
 
-import Logo from "../app/home/assets/LogoOne.png";
+// import Logo from "../app/home/assets/LogoOne.png";
+import Logo from "../public/assets/BeLogosss.png"
 import Image from "next/image";
 import {
   FaFacebookF,
@@ -230,12 +231,12 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="flex items-start mt-[80px] py-4 justify-center bg-[#0D0D12]">
+    <footer className="flex items-start mt-[80px] py-4 justify-center bg-[#f7f7f7]">
       <div className="flex flex-wrap  max-w-[1280px] items-start  gap-8  w-11/12 py-8 justify-between">
         <div className="flex flex-col items-start justify-between">
           {/* Logo section */}
           <Link href="/">
-            <Image src={Logo} width={180} height={90} alt="project icon" />{" "}
+            <Image src={Logo} width={220} height={160} alt="project icon" />{" "}
           </Link>
           <div className="font-montserrat mt-6 text-[#666D80]   font-normal text-[15px] md:text-[16px] max-w-[270px] w-full">
             Powered by{" "}
@@ -253,7 +254,7 @@ const Footer = () => {
 
           <div className="flex flex-col gap-2 ">
             {/* company */}
-            <h3 className="text-white font-medium font-montserrat  text-[16px]  mb-3">
+            <h3 className="text-[#0D0D12] font-medium font-montserrat  text-[16px]  mb-3">
               Company
             </h3>
             <ul className="space-y-3 text-start font-montserrat font-normal text-gray-600">
@@ -295,7 +296,7 @@ const Footer = () => {
           <div className="flex justify-between w-full gap-x-14">
             <div className="flex flex-col gap-2">
               {/* resources */}
-              <h3 className="text-white  text-[16px] font-montserrat  font-medium text-start mb-3">
+              <h3 className="text-[#0D0D12]  text-[16px] font-montserrat  font-medium text-start mb-3">
                 Links
               </h3>
               <ul className="space-y-3 text-start text-gray-600">
@@ -337,7 +338,7 @@ const Footer = () => {
             {/* support */}
             <div className="flex flex-col gap-2">
               <h3
-                className="text-headingText transition duration-300 ease-in-out font-montserrat text-[17px]  text-white font-medium
+                className="text-headingText transition duration-300 ease-in-out font-montserrat text-[17px] text-[#0D0D12] font-medium
               mb-3"
               >
                 Support
@@ -359,7 +360,7 @@ const Footer = () => {
 
         <div className="flex flex-col gap-2 max-w-[162px] w-full items-start">
           {/* social Links */}
-          <div className="text-white font-montserrat text-[17px]  text-start font-medium  mb-3">
+          <div className="text-[#0D0D12] font-montserrat text-[17px]  text-start font-medium  mb-3">
             Social Links
           </div>
           <div className="flex flex-row  gap-4 justify-between ">

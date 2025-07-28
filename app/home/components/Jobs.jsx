@@ -81,7 +81,7 @@ export default function Jobs() {
       urgent: false,
       posted: "1 day ago",
       applicants: 41,
-      // link: "https://forms.gle/CCHcZNcaRLeiEcHd7",
+      link: "https://forms.gle/RNAYZRqdiGpfDT1T8",
     },
     // {
     //   id: 4,
