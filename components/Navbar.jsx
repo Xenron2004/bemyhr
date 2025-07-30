@@ -110,7 +110,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Icon */}
           <div className="lg:hidden flex justify-between items-center">
-            <button onClick={toggleMenu} className="text-white">
+            <button onClick={toggleMenu} className="text-[#212b36]">
               {isMenuOpen ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -149,18 +149,18 @@ const Navbar = () => {
         <div
           className={`${
             isMenuOpen ? "flex" : "hidden"
-          } lg:hidden absolute top-0 left-0 right-0 bottom-0 bg-[#0D0D12] flex-col items-start justify-start gap-8 transition-all h-screen ease-in-out duration-500`}
+          } lg:hidden absolute top-0 left-0 right-0 bottom-0 bg-white flex-col items-start justify-start gap-8 transition-all h-screen ease-in-out duration-500`}
         >
           <div className="flex absolute w-full top-0 p-6 justify-between items-center">
             <Link href="/home" className="flex items-center">
               <Image
                 src={logo}
-                width={170}
-                height={80}
+                width={220}
+                height={140}
                 alt="Reevij Solutions Logo"
               />
             </Link>
-            <button onClick={toggleMenu} className="text-white">
+            <button onClick={toggleMenu} className="text-[#212b36]">
               <IoCloseSharp size={24} />
             </button>
           </div>
@@ -171,26 +171,26 @@ const Navbar = () => {
           >
             <Link
               href="#hero"
-              className="text-white font-poppins uppercase font-medium text-[17px]"
+              className="text-[#212b36] font-poppins uppercase font-medium text-[17px]"
             >
               Home
             </Link>
             <Link
               href="#services"
               onClick={handleClick}
-              className="text-white font-poppins uppercase font-medium text-[17px]"
+              className="text-[#212b36]  font-poppins uppercase font-medium text-[17px]"
             >
               About Us
             </Link>
             <Link
               href="#portfolio"
-              className="text-white font-poppins uppercase font-medium text-[17px]"
+              className="text-[#212b36]  font-poppins uppercase font-medium text-[17px]"
             >
               Why Us
             </Link>
             <Link
               href="#about"
-              className="text-white font-poppins uppercase font-medium text-[17px]"
+              className="text-[#212b36]  font-poppins uppercase font-medium text-[17px]"
             >
               Testimonials
             </Link>
